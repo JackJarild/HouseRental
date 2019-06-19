@@ -1,0 +1,13 @@
+﻿@model HouseRental.Common.HouseDto
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<p>@Model.Id</p>
+<p>@Model.HouseType</p>
+<p>@Model.BaseDayFee</p>
+
+
+<a class="btn btn-info" asp-controller="House" asp-action="Reserve" asp-route-id="@Model.Id">Book house</a>
