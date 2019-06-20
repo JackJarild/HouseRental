@@ -3,8 +3,19 @@
     ViewData["Title"] = "CheckOut";
 }
 
-<h1>CheckOut</h1>
-
-
-<h1>Reservation number: @Model.ReservationNumber</h1>
-<h2>Price: @Model.Price</h2>
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        <div class="card" style="width: 38rem;">
+            <div class="card-header text-center">
+                Check out
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Thank you for booking with us!</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="card-text">Total price: <b>@Model.Price$</b></p>
+                <p class="card-text">Reservation number: <b>@Model.ReservationNumber</b></p>
+            </div>
+            <button class="btn btn-info">Pay and check out</button>
+        </div>
+    </div>
+</div>

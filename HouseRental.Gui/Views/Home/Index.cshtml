@@ -11,10 +11,18 @@
 <div class="row">
     @foreach (var item in Model)
     {
-    <div class="col-sm-6">
-        <p>@item.Id</p>
-        <a asp-controller="House" asp-action="Details" asp-route-id="@item.Id">@item.HouseType</a>
-        @item.BaseDayFee
-    </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top img-fluid card-img-cover" src="@item.ImageUrl" alt="Card image caption"/>
+                <div class="card-body">
+                    <h5 class="card-title">@item.HouseType</h5>
+                    <p class="card-text">
+                        Rent this @item.HouseType.ToString().ToLower() for only @item.BaseDayFee$ per day
+                    </p>
+                    <a class="btn btn-primary" asp-controller="House" asp-action="Details" asp-route-id="@item.Id">Book now</a>
+                </div>
+            </div>
+            <br/>
+        </div>
     }
 </div>

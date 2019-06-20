@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using HouseRental.Common;
+using HouseRental.Gui.Models;
 using HouseRental.Gui.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,13 +18,14 @@ namespace HouseRental.Gui.Controllers
         public async Task<IActionResult> Details(int id)
         {
             var result = await _houseRentalClient.GetHouseAsync(id);
-            return View(result);
-        }
-
-        public IActionResult Reserve(int id)
-        {
-            var model = new ReservationRequest {HouseId = id};
-            return View(model);
+            var vm = new HouseViewModel
+            {
+                Id = result.Id,
+                ImageUrl = result.ImageUrl,
+                HouseType = result.HouseType,
+                BaseDayFee = result.BaseDayFee
+            };
+            return View(vm);
         }
 
         public IActionResult CheckOut(ReservationResponse model)

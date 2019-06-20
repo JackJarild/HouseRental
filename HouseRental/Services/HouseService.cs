@@ -25,7 +25,8 @@ namespace HouseRental.Api.Services
             {
                 Id = house.Id,
                 HouseType = (HouseType)house.HouseType,
-                BaseDayFee = house.BaseDayFee
+                BaseDayFee = house.BaseDayFee,
+                ImageUrl = house.ImageUrl
             };
         }
 
@@ -35,7 +36,8 @@ namespace HouseRental.Api.Services
             {
                 Id = h.Id,
                 HouseType = (HouseType)h.HouseType,
-                BaseDayFee = h.BaseDayFee
+                BaseDayFee = h.BaseDayFee,
+                ImageUrl = h.ImageUrl
             }).ToArrayAsync();
         }
 
