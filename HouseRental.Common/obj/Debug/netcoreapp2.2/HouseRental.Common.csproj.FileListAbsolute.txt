@@ -1,9 +1,0 @@
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\bin\Debug\netcoreapp2.2\HouseRental.Common.deps.json
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\bin\Debug\netcoreapp2.2\HouseRental.Common.dll
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\bin\Debug\netcoreapp2.2\HouseRental.Common.pdb
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\obj\Debug\netcoreapp2.2\HouseRental.Common.csprojAssemblyReference.cache
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\obj\Debug\netcoreapp2.2\HouseRental.Common.csproj.CoreCompileInputs.cache
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\obj\Debug\netcoreapp2.2\HouseRental.Common.AssemblyInfoInputs.cache
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\obj\Debug\netcoreapp2.2\HouseRental.Common.AssemblyInfo.cs
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\obj\Debug\netcoreapp2.2\HouseRental.Common.dll
-C:\Users\jack.jarild\Desktop\HouseRental\HouseRental.Common\obj\Debug\netcoreapp2.2\HouseRental.Common.pdb
